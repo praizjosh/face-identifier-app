@@ -10,6 +10,7 @@ import Rank from './components/Rank/Rank';
 import './App.css';
 
 
+
 const particlesOptions = {
   particles: {
     number: {
