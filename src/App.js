@@ -10,7 +10,6 @@ import Rank from './components/Rank/Rank';
 import './App.css';
 
 
-
 const particlesOptions = {
   particles: {
     number: {
@@ -77,7 +76,7 @@ onInputChange = (event) => {
 
 onPictureSubmit = () => {
   this.setState({imageUrl: this.state.input});
-    fetch('http://localhost:3001/imageurl', {
+    fetch('https://damp-cove-88625.herokuapp.com/imageurl', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -87,7 +86,7 @@ onPictureSubmit = () => {
     .then(response => response.json())
     .then(response => {
     if (response) {
-    fetch('http://localhost:3001/image', {
+    fetch('https://damp-cove-88625.herokuapp.com:3001/image', {
       method: 'put',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
