@@ -12,7 +12,7 @@ const ImageLinkForm = ({ onInputChange, onPictureSubmit }) => {
 			</p>
 			<div className='center'>
 				<div className='center form pa4 br3 shadow-5'>
-					<input className='f5 pa2 w-75 center' type='text' placeholder='Paste image link here...' onChange={onInputChange} />
+					<input className='f5 pa2 w-75 center' type='text' placeholder='Paste any image link here...' onChange={onInputChange} />
 					<button className='w-25 grow f4 link ph3 pv2 dib white bg-light-purple' onClick={onPictureSubmit}>Find</button>
 				</div>
 			</div>
