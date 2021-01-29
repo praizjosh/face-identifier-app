@@ -5,7 +5,7 @@ const ImageLinkForm = ({ onInputChange, onPictureSubmit }) => {
 	return (
 		<div className='pa2'>
 			<p className='f4'>
-				This Magical Face Recognition App will find faces in your pictures. 
+				Our magical Face Recognition App will find faces in your pictures. 
 			</p>
 			<p className='f4'>
 				Give it a try!
