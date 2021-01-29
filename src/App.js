@@ -86,7 +86,7 @@ onPictureSubmit = () => {
     .then(response => response.json())
     .then(response => {
     if (response) {
-    fetch('https://damp-cove-88625.herokuapp.com:3001/image', {
+    fetch('https://damp-cove-88625.herokuapp.com/image', {
       method: 'put',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
