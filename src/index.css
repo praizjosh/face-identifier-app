@@ -26,7 +26,7 @@ code {
     bottom: 0;
     width: 100%;
     height: 2rem;
-    text-align: center;
+    text-align: right;
     letter-spacing: .6px;
-    margin-top: 70px;
+    padding-right: 20px;
 }
