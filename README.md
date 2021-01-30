@@ -13,6 +13,15 @@ Powered by React.js and originally built with [Create React App] (https://github
 * React Tilt.js - https://www.npmjs.com/package/react-tilt
 * Particles.js - https://vincentgarreau.com/particles.js/
 * CSS3 Pattern - http://projects.verou.me/css3patterns/
+* Knex - https://www.npmjs.com/package/knex
+* Tachyons - https://www.npmjs.com/package/tachyons
+* Cors - https://www.npmjs.com/package/cors
+* Bcrypt - https://www.npmjs.com/package/bcrypt
+* Body-Parser - https://www.npmjs.com/package/body-parser
+* Nodemon - https://www.npmjs.com/package/nodemon
+* Express - https://www.npmjs.com/package/express
+* Node-Postgres - https://www.npmjs.com/package/pg
+* React - https://www.npmjs.com/package/react
 
 ### View Live Demo
 
