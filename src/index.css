@@ -19,11 +19,14 @@ code {
  	border-bottom-right-radius: 4px;
  }
 
- footer{
+ footer {
     font: 300 .7em 'Poppins', sans-serif;
-    text-transform: none;
+    color: #fff;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 2rem;
+    text-align: center;
+    letter-spacing: .6px;
+    margin-top: 70px;
 }
